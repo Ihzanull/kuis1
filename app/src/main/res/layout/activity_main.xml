@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/kop1"
+        android:text="SISTEM INFORMASI"
+        android:textSize="25dp"
+        android:layout_marginTop="150px"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/buttonbiodata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kop1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Biodata"
+        android:textColor="@color/red"
+        android:textAllCaps="false"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonbiodata"
+        android:layout_alignLeft="@id/buttonbiodata"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="10dp"
+        android:text="Message" />
+
+    <Button
+        android:id="@+id/maps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonbiodata"
+        android:layout_alignRight="@id/buttonbiodata"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="88dp"
+        android:text="Maps" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/shutdown"
+        android:layout_below="@id/message"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:text="Shutdown"/>>
+</RelativeLayout>
